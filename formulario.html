@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<form action="" method="post" 
+
+	<div class="container">
+
+	<span>Nombre</span>
+	<input type="text" class="form-control" required="El nombre es necesario">
+
+	<div class="input-group">
+  	<input type="text" class="form-control">
+  	<div class="input-group-append">
+    	<span class="input-group-text">@adaits.com</span>
+  	</div>
+	</div>
+
+	<input type="date" class="form-control">
+
+	<select multiple class="form-control">
+      <option>informatico</option>
+      <option>profesor</option>
+      <option>paro</option>
+    </select>
+
+
+    <div class="custom-control custom-radio">
+  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio1">Hombre</label>
+</div>
+<div class="custom-control custom-radio">
+  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio2">Mujer</label>
+</div>
+
+<div class="container">
+<label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Acepto terminos y condiciones
+    </label>
+</div>
+
+<div class="custom-file" id="customFile" lang="es">
+        <input type="file" class="custom-file-input" id="exampleInputFile" aria-describedby="fileHelp">
+        <label class="custom-file-label" for="exampleInputFile">
+           Seleccionar archivo
+        </label>
+</div>
+
+<button class="btn btn-info" type="submit">Envía</button>
+</form>
+
+</div>
+</body>
+</html>
